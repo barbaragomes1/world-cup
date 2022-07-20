@@ -1,0 +1,219 @@
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+
+    background: #FFFFFF;
+
+}
+
+/* styling hero section-----------
+------------- */
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 80%;
+    height: 645px;
+    background-color: #161616;
+    color: white;
+    margin: 60px auto;
+    border-radius: 30px;
+    /* padding: 60px; */
+
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 70px;
+
+}
+
+.box-1 p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.box-1 button {
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 6px 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.box-2 img {
+    width: 581px;
+    height: 600px;
+
+}
+
+/* second-section starts-------------
+------------ */
+.second-section {
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.sidebar-buttons {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    padding-top: 30px;
+
+
+}
+
+.sidebar-buttons .color {
+    background-color: #DD0000;
+    border: none;
+    color: white;
+}
+
+.buttons button {
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 90%;
+    display: block;
+    margin: 30px auto;
+    color: #161616;
+}
+
+
+
+
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.match {
+    width: 312px;
+    height: 362px;
+    border: 1px solid rgb(248, 245, 245);
+    border-radius: 18px;
+    margin-left: 80px;
+
+}
+
+.match-detail button {
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    line-height: 30px;
+    margin: 0 10px;
+}
+
+.match h4,
+i {
+    padding: 10px;
+}
+
+.match-time i {
+    margin: 0 5px;
+}
+
+/* footer section  */
+.footer-section {
+    color: white;
+    background-color: #161616;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-section h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid grey;
+    margin: 50px 70px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.icons .fa-brands {
+    margin: 0 10px;
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 18px;
+
+
+}
+
+/* Match website style starts */
+.match-box {
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.web-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.box {
+    width: 312px;
+    height: 200px;
+    border: 2px solid rgb(248, 245, 245);
+    border-radius: 18px;
+    margin-left: 80px;
+    padding-top: 40px;
+
+
+}
+
+.box-detail h4 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+
+}
+
+.box-detail p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+
+}
+
+
+
+/* Match website style ends */
